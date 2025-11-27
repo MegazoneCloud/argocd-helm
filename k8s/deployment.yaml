@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: seongje00416/todo-backend:latest
+          image: seongje00416/todo-backend:2f7058eaa8fddd6ef4bdd27f1efc340ce5522acb
           ports:
             - containerPort: 8080
           envFrom:
